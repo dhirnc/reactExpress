@@ -1,0 +1,18 @@
+{
+  "name": "reactexpress",
+  "description": "a basic react express app",
+  "main": "index.js",
+  "authors": [
+    "Mohit Verma <mohitverma2323@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mohitverma2323/reactExpress",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
