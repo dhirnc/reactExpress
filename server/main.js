@@ -1,6 +1,7 @@
 var express = require('express');
 
 var app = new express();
+var parser = require('body-parser');
 
 app.get('/',function(req,res)
 {
@@ -9,3 +10,7 @@ app.get('/',function(req,res)
 .use(express.static(__dirname+'/../.temp'))
 .listen(7777);
 
+app.use(parser.json());
+app.use(parser.urlencoded({extended: false}));
+
+require("./routes/items.js")(app);

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mohitverma2323/reactExpress#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "browser-sync": "^2.11.2",
     "browserify": "^13.0.0",
     "ejs": "^2.4.1",
@@ -24,6 +25,7 @@
     "guid": "0.0.12",
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.29",
+    "jquery": "^2.2.3",
     "react": "^0.14.8",
     "react-addons": "^0.9.0",
     "reactify": "^1.1.1",
